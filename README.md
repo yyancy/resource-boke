@@ -35,7 +35,7 @@ java IBM技术论坛 https://www.ibm.com/developerworks/cn/java/
 2345 https://blog.csdn.net/hon_3y/article/list/5
 
 ### test
-安赛飞 :<a href="www.baidu.com" target="_blank">asdf</a>
+安赛飞 :<a href="https://www.baidu.com" target="_blank">asdf</a>
 
 
 
