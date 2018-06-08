@@ -34,6 +34,8 @@ java IBM技术论坛 https://www.ibm.com/developerworks/cn/java/
 ## 博客
 2345 https://blog.csdn.net/hon_3y/article/list/5
 
+linux教程|学习网站 http://www.92csz.com/study/linux/
+
 ### test
 安赛飞 :<a href="http://write.blog.csdn.net/postlist" target="_blank">麦田里的码农</a>
 
