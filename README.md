@@ -2,12 +2,10 @@
 ## 一些好的文章资源链接
 
 |简介                  |链接                    |
-|:------------:|----------------|
-| java国外的学习网站，挺不错的 | http://tutorials.jenkov.com |
-
- 国外教程     https://howtodoinjava.com 
-
-importNew http://www.importnew.com 
+|:------------:|:----------------:|
+|java国外的学习网站，挺不错的 | http://tutorials.jenkov.com |
+|国外教程 |     https://howtodoinjava.com |
+|importNew| http://www.importnew.com |
 
 IBM JAVA  https://www.ibm.com/developerworks/learn/java 
 
