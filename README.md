@@ -22,17 +22,14 @@ how2j       | http://how2j.cn
 ## 知识点
 |简介                  |链接                    |
 |:------------:|:----------------:|
-servlet3.0 详解 | https://www.ibm.com/developerworks/cn/java/j-lo-servlet30/index.html?_blank
-
-并发教程 | http://ifeve.com/java-concurrency-thread-directory/
-
-java IBM技术论坛 | https://www.ibm.com/developerworks/cn/java/
+servlet3.0 详解 | https://www.ibm.com/developerworks/cn/java/j-lo-servlet30/index.html
+并发教程 | http://ifeve.com/java-concurrency-thread-directory
+java IBM技术论坛 | https://www.ibm.com/developerworks/cn/java
 
 ## 博客
 |简介                  |链接                    |
 |:------------:|:----------------:|
 2345 | https://blog.csdn.net/hon_3y/article/list/5
-
 linux教程学习网站 | http://www.92csz.com/study/linux/
 
 ### test
