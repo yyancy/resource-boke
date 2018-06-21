@@ -2,7 +2,7 @@
 
 [返回首页](https://github.com/yyancy/resource-boke/edit/master/note/mysql.md)
 
-[百度1](http://www.baidu.com/ " 百度一下")  
+[百度1](../README.md " 百度一下")  
 
 ## contents
   
