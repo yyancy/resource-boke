@@ -13,6 +13,9 @@ how2j       | http://how2j.cn
 程序员导航 | http://code.giffox.com 
 变量起名  | codeif http://unbug.github.io/codelf 
 计算机书籍 | http://bestcbooks.com 
+jquery帮助网站 |http://jquery.cuishifeng.cn/
+java官方教程|https://docs.oracle.com/javase/tutorial/index.html
+开源免费书籍 | https://love2.io/
 ## 生活 
 |简介                  |链接                    |
 |:------------:|:----------------:|
