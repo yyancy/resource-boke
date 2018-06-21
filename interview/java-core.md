@@ -24,7 +24,7 @@ public class VariantTest{
 说明：如果在修饰的元素上面没有写任何访问修饰符，则表示friendly。
 
 作用域 |   当前类 | 同一package| 子孙类 |其他package 
-:--:|:--:|:--:|:--:
+:--:|:--:|:--:|:--:|:--:
 public |   √    | √|          √    |   √ 
 protected | √  |   √|          √  |    × 
 friendly  | √ |    √ |         × |     × 
