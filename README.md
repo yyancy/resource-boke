@@ -16,6 +16,7 @@ how2j       | http://how2j.cn
 jquery帮助网站 |http://jquery.cuishifeng.cn/
 java官方教程|https://docs.oracle.com/javase/tutorial/index.html
 开源免费书籍 | https://love2.io/
+易百教程 | https://www.yiibai.com/
 ## 生活 
 |简介                  |链接                    |
 |:------------:|:----------------:|
@@ -35,10 +36,13 @@ java IBM技术论坛 | https://www.ibm.com/developerworks/cn/java
 2345 | https://blog.csdn.net/hon_3y/article/list/5
 linux教程学习网站 | http://www.92csz.com/study/linux/
 
-### test
-|简介                  |链接                    |
-|:------------:|:----------------:|
-安赛飞 : |<a href="http://write.blog.csdn.net/postlist" target="_blank">麦田里的码农</a>
+## 视频教程
+简介 | 链接
+:--: | :--:
+慕课网 | https://www.imooc.com/
+
+### 其他
+web.xml讲解 | https://blog.csdn.net/changqing5818/article/details/49928231
 
 
 
