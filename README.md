@@ -17,7 +17,7 @@ how2j       | http://how2j.cn
 黑客学习介绍网站| http://catb.org/~esr/faqs/hacker-howto.html  
 快搜 | http://search.chongbuluo.com 
 程序员导航 | http://code.giffox.com 
-变量起名  | codeif http://unbug.github.io/codelf 
+变量起名  | http://unbug.github.io/codelf 
 计算机书籍 | http://bestcbooks.com 
 jquery帮助网站 |http://jquery.cuishifeng.cn/
 java官方教程|https://docs.oracle.com/javase/tutorial/index.html
