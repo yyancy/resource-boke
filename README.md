@@ -55,10 +55,13 @@ KMP | http://www.ruanyifeng.com/blog/2013/05/Knuth%E2%80%93Morris%E2%80%93Pratt_
 简介 | 链接
 :--: | :--:
 web.xml讲解 | https://blog.csdn.net/changqing5818/article/details/49928231
+springMVC web.xml详解| https://blog.csdn.net/u010796790/article/details/52098258
+springMVC & mybatis 教程| https://blog.csdn.net/h3243212/article/details/51016271
 设计模式 | https://www.cnblogs.com/susanws/p/5510229.html
 设计模式 | https://www.cnblogs.com/foryang/p/5849402.html
 设计模式 | http://java-design-patterns.com/
 map详解 | https://baike.xsoftlab.net/view/250.html
+linux快捷建 | https://www.cnblogs.com/chenjinxi/p/8080632.html
 
 
 
