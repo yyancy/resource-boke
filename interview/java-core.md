@@ -1,6 +1,7 @@
 ## 基础
 ### 静态变量和实例变量的区别？ 
 在语法定义上的区别：静态变量前要加static关键字，而实例变量前则不加.
+<div align="center"><img src="https://howtodoinjava.com/wp-content/uploads/collection-hierarchy.png"/></div>
 
 在程序运行时的区别：实例变量属于某个对象的属性，必须创建了实例对象，其中的实例变量才会被分配空间，
 才能使用这个实例变量。静态变量不属于某个实例对象，而是属于类，所以也称为类变量，只要程序加载了类的字节码，
