@@ -11,11 +11,19 @@
  王五     语文       81
  王五     数学       100
  王五     英语       90
+
+select name 
+from table 
+group by name 
+having min(fenshu)>80  
+
+select distinct name 
+from table 
+where name not in (
+ select distinct name 
+ from table 
+ where fenshu<=80)
 ```
-select name from table group by name having min(fenshu)>80  
-
-select distinct name from table where name not in (select distinct name from table where fenshu<=80)
-
 ## 删除除了自动编号不同, 其他都相同的学生冗余信息
 2. 学生表 如下:
 ```sql
@@ -24,6 +32,21 @@ select distinct name from table where name not in (select distinct name from tab
 2        2005002 李四 0001      数学    89
 3        2005001 张三 0001      数学    69
 
-delete tablename where 自动编号 not in(select min( 自动编号) from tablename group by学号, 姓名, 课程编号, 课程名称, 分数)
-
+delete tablename 
+where 自动编号 not in(
+ select min( 自动编号) 
+ from tablename 
+ group by学号, 姓名, 课程编号, 课程名称, 分数)
 ```
+## 用一条sql 语句显示所有可能的比赛组合.
+一个叫 team 的表，里面只有一个字段name, 一共有4 条纪录，分别是a,b,c,d, 对应四个球对，现在四个球对进行比赛，用一条sql 语句显示所有可能的比赛组合.
+```sql
+select a.name,b.name from 
+team a,team b 
+where a.name < b.name
+```
+
+
+
+
+
