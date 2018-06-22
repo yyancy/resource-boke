@@ -70,7 +70,7 @@ select year,
 from aaa group by year
 ```
 ## mysql 复制表
-1. 只复制表结构到新表
+### 1. 只复制表结构到新表
 ```sql
 1 CREATE TABLE 新表 SELECT * FROM 旧表 WHERE 1=2;
 
@@ -78,19 +78,44 @@ from aaa group by year
 ```
 注意上面两种方式，前一种方式是不会复制时的主键类型和自增方式是不会复制过去的，而后一种方式是把旧表的所有字段类型都复制到新表。
 
-2. 复制表结构及数据到新表
+### 2. 复制表结构及数据到新表
 ```sql
 CREATE TABLE 新表 SELECT * FROM 旧表
 ```
-3. 复制旧表的数据到新表(假设两个表结构一样) 
+### 3. 复制旧表的数据到新表(假设两个表结构一样) 
 ```sql
 INSERT INTO 新表 SELECT * FROM 旧表
 ```
-4. 复制旧表的数据到新表(假设两个表结构不一样)
+### 4. 复制旧表的数据到新表(假设两个表结构不一样)
 ```sql 
 INSERT INTO 新表(字段1,字段2,.......) SELECT 字段1,字段2,...... FROM 旧表
 ```
-
+## 两张关联表，删除主表中已经在副表中没有的信息
+```sql
+Delete from info 
+where not exists (
+ select * 
+ from infobz 
+ where info.infid=infobz.infid )
+```
+## 有两个表A 和B ，均有key 和value 两个字段，如果B 的key 在A 中也有，就把B 的value 换为A 中对应的value这道题的SQL 语句怎么写？
+```sql
+update b 
+set b.value=(
+ select a.value 
+ from a where a.key=b.key) 
+where b.id in(
+ select b.id 
+ from b,a where b.key=a.key);
+```
+## 查询表A中存在ID重复三次以上的记录
+```sql
+select * from(
+  select count(ID) as count 
+  from table 
+  group by ID)T 
+where T.count>3
+```
 
 
 
