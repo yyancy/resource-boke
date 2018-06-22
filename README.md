@@ -5,6 +5,8 @@
 |简介                  |链接                    |
 |:------------:|:----------------:|
 后端架构师图谱 | https://github.com/xingshaocheng/architect-awesome
+算法学习 | https://github.com/tayllan/awesome-algorithms
+
 
 ## 一些好的文章资源链接
 
