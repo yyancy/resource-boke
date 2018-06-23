@@ -116,7 +116,37 @@ select * from(
   group by ID)T 
 where T.count>3
 ```
+## Combine Two Tables
+```sql
+table:person
++-------------+---------+    
+| Column Name | Type    |
++-------------+---------+
+| PersonId    | int     |
+| FirstName   | varchar |
+| LastName    | varchar |
++-------------+---------+
+PersonId is the primary key column for this table.       
 
+table:address
++-------------+---------+
+| Column Name | Type    |
++-------------+---------+
+| AddressId   | int     |
+| PersonId    | int     |
+| City        | varchar |
+| State       | varchar |
++-------------+---------+
+AddressId is the primary key column for this table.
+
+为报表编写一个SQL查询，为Person表中的每个人提供以下信息，而不管这些人是否有地址：
+FirstName, LastName, City, State
+
+select firstName,LastName,City,State 
+from Person 
+left join Address 
+on Person.PersonId=Address.PersonId;
+```
 
 
 
