@@ -12,8 +12,8 @@
 4. 该技术什么时候用？test。
 ## contents
 - [java概述](#java概述)
-	- [Java的三种技术架构](#1.Java的三种技术架构)
-	- 配置环境变量(#2.配置环境变量)
+	- [Java的三种技术架构](# 1 Java的三种技术架构)
+	- [配置环境变量](#配置环境变量)
 	- 
 -[]()
 	-[]()
@@ -32,7 +32,7 @@
 
 1994年将Oak语言更名为Java；
 
-### 1.Java的三种技术架构
+### 1 Java的三种技术架构
 - JAVAEE：Java Platform Enterprise Edition，开发企业环境下的应用程序，主要针对web程序开发
 - JAVASE：Java Platform Standard Edition，完成桌面应用程序的开发，是其它两者的基础
 - JAVAME：Java Platform Micro Edition，开发电子消费产品和嵌入式设备，如手机中的程序
