@@ -7,6 +7,7 @@
 后端架构师图谱 | https://github.com/xingshaocheng/architect-awesome
 算法学习 | https://github.com/tayllan/awesome-algorithms
 面试,职场 | https://github.com/lietoumai/awesome-offer
+Github上的优秀工具,框架,知识合集 | https://github.com/taojintianxia/github-bookmark
 
 
 
@@ -69,6 +70,8 @@ springMVC & mybatis 教程| https://blog.csdn.net/h3243212/article/details/51016
 map详解 | https://baike.xsoftlab.net/view/250.html
 linux快捷建 | https://www.cnblogs.com/chenjinxi/p/8080632.html
 markdown | https://help.github.com/articles/basic-writing-and-formatting-syntax/#links
+企业架构的发展(推荐) | https://www.jianshu.com/p/30acae77ad98
+
 
 
 
